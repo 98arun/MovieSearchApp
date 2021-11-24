@@ -1,7 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import MoviesSearch from "./Components/MoviesHome";
 
 ReactDOM.render(
-  <React.StrictMode></React.StrictMode>,
+  <React.StrictMode>
+    <MoviesSearch />
+  </React.StrictMode>,
   document.getElementById("root")
 );
